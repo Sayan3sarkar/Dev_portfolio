@@ -111,3 +111,14 @@
         transform: scale(1.01);
     }
 }
+@media screen and (max-width: 411px){
+    .workExp{
+        margin-left: 1.7rem;
+    }
+    .workExp:hover{
+        border: 2px solid #037fff;
+        /* border-left: 2px solid #037fff;
+        border-right: 2px solid #037fff; */
+        transform: scale(1);
+    }
+}
