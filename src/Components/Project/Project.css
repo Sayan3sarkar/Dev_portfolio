@@ -1,0 +1,47 @@
+.project {
+    width: 80%;
+    border: 1px solid #037fff;
+    padding: 2rem;
+    transition: all .4s ease-in-out;
+    transform: scale(1);
+    text-decoration: none;
+    height: 75%;
+}
+
+.project:hover {
+    border-left: 8px solid #037fff;
+    border-right: 8px solid #037fff;
+    transform: scale(1.1);
+}
+
+.project__image{
+    width: 100%;
+    object-fit: contain;
+    transition: all .4s ease-in-out;
+    transform: scale(1);
+    height: 70%;
+}
+
+.project__image:hover {
+    transform: scale(1.2);
+}
+
+.project__name {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 605px){
+    /* .project{
+        margin-right: 2rem;
+        margin-left: 0.7rem;
+    } */
+    .project:hover{
+        border-left: 4px solid #037fff;
+        border-right: 4px solid #037fff;
+        transform: scale(1.02);
+    }
+}

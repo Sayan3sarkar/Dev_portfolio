@@ -1,0 +1,113 @@
+.workExp{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #037fff;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    width: 75%;
+    transition: .4s all ease-in-out;
+    transform: scale(1);
+}
+
+.workExp:hover{
+    transform: scale(1.05);
+    /* background-color: #0381ff33; */
+    border-left: 8px solid #037fff;
+    border-right: 8px solid #037fff;
+}
+
+.workExp h4{
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.workExp__header{
+    display: flex;
+    margin-bottom: 1rem;
+    height: 100%;
+}
+
+.workExp__image{
+    flex: 0.3;
+    width: 100%;
+    padding: 1rem 2rem 0;
+    border-right: 1px solid #037fff;
+    border-bottom: 1px solid #037fff;
+}
+
+.workExp__image img{
+    height: 5rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.workExp__headerContent{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2rem;
+    border-bottom: 1px solid #037fff;
+    color: #fff;
+    font-weight: 800;
+}
+
+.workExp__mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-top: 0;
+    border-bottom: 1px solid #037fff;
+}
+
+.workExp__designation, .workExp__role{
+    flex: 0.5;
+    color: #fff;
+    font-weight: 800;
+}
+
+.work__techStack {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 1.5rem;
+    margin-left: 1.5rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.work__responsibilities{
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.work__responsibilities li {
+    padding: 0.5rem 1.5rem;
+}
+
+@media screen and (max-width: 1200px){
+    .workExp{
+        width: 100%;
+    }
+    .work__techStack {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 905px){
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 605px){
+    .workExp{
+        margin-right: 2.5rem;
+        margin-left: 0.8rem;
+    }
+    .workExp:hover{
+        border-left: 4px solid #037fff;
+        border-right: 4px solid #037fff;
+        transform: scale(1.01);
+    }
+}

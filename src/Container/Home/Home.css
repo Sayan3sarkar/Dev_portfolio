@@ -1,0 +1,56 @@
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.home__hero{}
+
+.home__heroText{
+    color: #fff;
+    text-align: center;
+    font-size: 3.6rem;
+}
+
+.home__heroText span{
+    color: #037fff;
+}
+
+.home__subText{
+    text-align: center;
+    color: #fff;
+}
+
+.home__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__iconHolder:not(:last-child) {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.home__icon {
+    font-size: 2.3rem;
+    padding: 1rem;
+    transition: all 0.4s ease-in-out;
+    color: #a4acc4;
+}
+.gh:hover{
+    color: #6e5494;
+}
+
+.lnk:hover{
+    color: #0072b1;
+}
+
+.fb:hover{
+    color: #4267b2;
+}
+
+.md:hover{
+    color: #3cb371;
+}
