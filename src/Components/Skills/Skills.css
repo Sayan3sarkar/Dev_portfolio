@@ -58,3 +58,8 @@
         margin-right: 2rem;
     }
 }
+@media screen and (max-width: 411px){
+    .skills{
+        margin-right: 2rem;
+    }
+}
