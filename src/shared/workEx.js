@@ -12,7 +12,9 @@ export const workEx = [
         imageUrl: pursuit,
         tech_stack: [
             "ReactJS",
+            "Redux",
             "Angular 9",
+            "RxJS",
             "HTML 5",
             "CSS 3",
             "NodeJS/Express",
