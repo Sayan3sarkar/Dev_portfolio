@@ -23,8 +23,9 @@ export const workEx = [
             "Amazon RDS(MySQL)",
             "AWS Cognito User Pool",
             "AWS API Gateway",
-            "AWS Cloudwatch Logs",
+            "AWS Parallel Cluster",
             "Ansible",
+            "ELK Stack with MetricBeat"
         ],
         responsibilities: [
             "End to end implementation of product via which AWS Parallel clusters are set up, on demand, for running AWS Batch jobs",
@@ -32,7 +33,8 @@ export const workEx = [
             "User Authentication handled using AWS Cognito User Pool",
             "Developed RESTful API's and implemented Serverless infrastructure with AWS API Gateway in assistance with Lambda functions",
             "Backend/Core Engine API development in Express from scratch for communication of hosted backend with app front-end",
-            "In Core-Engine, implemented ELK stack from scratch for monitoring purposes."
+            "In Core-Engine, implemented ELK stack from scratch for monitoring purposes.",
+            "Wrote automation scripts in core engine using Ansible"
         ],
     },
     {
@@ -50,7 +52,6 @@ export const workEx = [
             "JavaScript"
         ],
         responsibilities: [
-            "UI Automation using inbuilt Python API",
             "API endpoint and backend development using Express based on NodeJS",
             "Used mysql2 npm package for CRUD operations on backend API development",
             "Applied sqlite3 package of Python for performing Database related activities in already existing client-side code"
