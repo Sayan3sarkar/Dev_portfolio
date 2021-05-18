@@ -1,4 +1,4 @@
-import { faAngular, faAws, faCss3, faHtml5, faJs, faNode, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAngular, faAws, faCss3, faGitAlt, faGithub, faHtml5, faJs, faNode, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faFire, faPrescription } from "@fortawesome/free-solid-svg-icons";
 import cpp from '../img/skills_logo/cpp.png';
 import typescript from '../img/skills_logo/typescript.png';
@@ -18,5 +18,6 @@ export const skills = [
     { skill: 'MongoDB(with Mongoose)', width: '95%', fontAwesomeClass: faDatabase },
     { skill: 'DynamoDB', width: '80%', fontAwesomeClass: faAws },
     { skill: 'C++', width: '95%', imageUrl: cpp },
-    { skill: 'MySQL/Oracle(9i/10g)', width: '95%', imageUrl: dynamodb }
+    { skill: 'MySQL/Oracle(9i/10g)', width: '95%', imageUrl: dynamodb },
+    { skill: 'Git', width: '95%', fontAwesomeClass: faGitAlt }
 ];

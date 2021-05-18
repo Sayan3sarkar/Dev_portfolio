@@ -24,6 +24,7 @@ export const workEx = [
             "AWS Cognito User Pool",
             "AWS API Gateway",
             "AWS Parallel Cluster",
+            "AWS CodeCommit",
             "Ansible",
             "ELK Stack with MetricBeat"
         ],
