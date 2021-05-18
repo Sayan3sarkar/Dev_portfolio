@@ -11,9 +11,8 @@ const ImageSection = () => {
             <div className="imageSection__aboutInfo">
                 <h4>I am <span>Sayan Sarkar</span></h4>
                 <p className="imageSection__aboutInfoText">
-                    I am a professional <span>Full Stack Developer</span>. I have worked with <span>UI/UX</span> technologies like <span>ReactJS</span> and am currently working with
-                    <span>Angular 9</span>. I develop <span>REST API's</span> using <span>NodeJS</span> frameworks like <span>Express</span>.
-                    Also, several years of coding in <span>C++</span> and <span>Python</span> make <span>Data Structures and Algorithms</span>, one of my strongest suits.
+                    I am a professional <span>Full Stack Developer</span>. I have worked with <span>UI/UX</span> technologies like <span>ReactJS</span> and <span>Angular 9</span>. I develop <span>REST API's</span> using <span>NodeJS</span> frameworks like <span>Express</span>.
+                    I am proficient in <span>MERN Stack</span>.Also, several years of coding in <span>C++</span> and <span>Python</span> make <span>Data Structures and Algorithms</span>, one of my strongest suits.
                 </p>
 
                 <h4 style={{ marginTop: '1rem' }}>Personal Details</h4>
